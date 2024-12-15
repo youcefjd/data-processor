@@ -6,10 +6,11 @@ The data-processor service consumes messages from the user-login topic, processe
 
 data-processor: This is a Python application that reads messages from the user-login topic, processes the data (ex: aggregation), and writes processed data to other topics (processed-logins and user-aggregations).
 Kafka Consumer and Producer: The Python application uses Kafka consumers to read messages and producers to send data to new topics.
-Key Points:
-Consumer: Reads messages from user-login, processes the data, and sends results to the processed-logins and user-aggregations topics.
-Producer: Sends the processed and aggregated data to Kafka topics, making it available for other consumers.
-Aggregation: The Python service performs simple aggregation, such as counting the number of logins per user.
+
+##### Key Points:
+###### Consumer: Reads messages from user-login, processes the data, and sends results to the processed-logins and user-aggregations topics.
+###### Producer: Sends the processed and aggregated data to Kafka topics, making it available for other consumers.
+###### Aggregation: The Python service performs simple aggregation, such as counting the number of logins per user.
 
 
 ## Production Deployment Considerations
