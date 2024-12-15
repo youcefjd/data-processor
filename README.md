@@ -37,3 +37,12 @@ Implement monitoring of Kafka brokers, producers, and consumers. Tools like Prom
 #### Secure the Infrastructure:
 Ensure encrypted communication between Kafka brokers (via TLS) and authentication.
 Secure consumer-producer interactions via SSL/TLS or client authentication to prevent unauthorized access to Kafka topics.
+
+
+
+
+<img width="1585" alt="Screenshot 2024-12-15 at 5 33 47 PM" src="https://github.com/user-attachments/assets/ce199adf-c691-46dc-9f83-bff1fb2385b7" />
+<img width="941" alt="Screenshot 2024-12-15 at 5 34 26 PM" src="https://github.com/user-attachments/assets/10d900ef-123d-4a04-b9f5-c7cbaafd79bf" />
+
+
+
