@@ -23,6 +23,10 @@ This also allows Kafka to replicate data across brokers in different AZs, provid
 While a simple Python consumer-producer setup works for small-scale applications, in a production-grade setup, you’ll want a more robust data processing infrastructure like Apache Flink or kSQL.
 These tools offer streaming analytics at scale, are fault-tolerant, and support advanced operations.
 
+#### Consider Connect Instead of Python Producers/Consumers:
+
+Kafka Connect simplifies clients' deployment - JSON files are easier to understand particularly for non-technical people compared to Python (or any other programming language) clients. The Connect infrastructure can also scale horizontally if set up correctly. 
+
 #### Multiple Partitions per Topic:
 Kafka allows topics to be divided into multiple partitions, which enables parallelism in message consumption. Each partition can be consumed by a different consumer in a consumer group.
 Using multiple partitions per topic increases throughput and ensures that the data is distributed evenly across Kafka brokers.
